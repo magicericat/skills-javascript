@@ -97,7 +97,13 @@
 </fieldset>
 
 <script>
-  var button
+  var button1 = document.getElementById("popup-alert-button");
+
+  function popUp() {
+    alert("Are you ready for Halloween?")
+  }
+
+  button1.addEventListener("click", popUp);
 </script>
 
 
